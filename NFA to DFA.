@@ -14,6 +14,39 @@ the DFA
 7. Stop the program
 
 
+INPUT :
+No. of states : 3
+No. of transitions : 2
+state name : A
+path : 0
+Enter end state from state A travelling through path 0 :
+A
+path : 1
+Enter end state from state A travelling through path 1 :
+A B
+state name : B
+path : 0
+Enter end state from state B travelling through path 0 :
+C
+path : 1
+Enter end state from state B travelling through path 1 :
+C
+state name : C
+path : 0
+Enter end state from state C travelling through path 0 :
+path : 1
+Enter end state from state C travelling through path 1 :
+NFA :-
+{'A': {'0': ['A'], '1': ['A', 'B']}, 'B': {'0': ['C'], '1': ['C']}, 'C': {'0': [], '1': []}}
+Printing NFA table :-
+ 0 1
+A [A] [A, B]
+B [C] [C]
+C [] []
+Enter final state of NFA :
+C
+
+
 
 
 
